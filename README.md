@@ -42,20 +42,23 @@ fenbi-helper 基于 2020 年 GitHub 开源粉笔辅助项目二次迭代改造�
 
 ## 🛠 部署教程（macOS/Linux/Windows 通用）
 
-### 1. 环境依赖
+### 环境依赖
 
 - Node.js ≥16 LTS
 - Git
 
 ```bash
 # 克隆项目
-git clone https://gitee.com/你的用户名/fenbi-helper.git
+git clone https://gitee.com/MythicalCreature/fenbi-helper-master.git
 cd fenbi-helper-master
 
 # 安装依赖
 npm install
 
 # 启动服务
-npm run dev
+# 方式1（优先，读取package.json配置）
+npm start
 
+# 方式2 直接跑入口文件
+node src/app.js
 ```
