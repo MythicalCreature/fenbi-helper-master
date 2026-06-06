@@ -3,6 +3,7 @@
 ## 项目简介
 
 fenbi-helper 基于 2020 年 GitHub 开源粉笔辅助项目二次迭代改造。
+此处感谢[https://github.com/YSMull/fenbi-helper]([https://github.com/YSMull/fenbi-helper])
 
 **主要优化内容：**
 
